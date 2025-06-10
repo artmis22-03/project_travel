@@ -158,5 +158,53 @@
     </div>
   </div>
 </section>
+<section class="bg-white py-16 px-6 md:px-12">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 text-center">Security</h2>
+    <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">
+      We prioritize your safety with a comprehensive approach combining technology, compliance, and care.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="font-semibold text-blue-600">GPS with Live Tracking</h3>
+        <p class="text-sm text-gray-600 mt-2">Monitor real-time location of vehicles for enhanced security and visibility.</p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="font-semibold text-blue-600">Safety Belts for Passengers</h3>
+        <p class="text-sm text-gray-600 mt-2">All seats equipped with seat belts to ensure passenger safety.</p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="font-semibold text-blue-600">Driver & Vehicle Compliance</h3>
+        <p class="text-sm text-gray-600 mt-2">Both software-based and manual checks ensure legal and safety compliance.</p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="font-semibold text-blue-600">Regular Maintenance</h3>
+        <p class="text-sm text-gray-600 mt-2">Vehicles undergo routine servicing to avoid breakdowns and ensure performance.</p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="font-semibold text-blue-600">Driver Document Renewals</h3>
+        <p class="text-sm text-gray-600 mt-2">On-time renewal tracking for licenses and permits for uninterrupted service.</p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="font-semibold text-blue-600">Cleanliness Checks</h3>
+        <p class="text-sm text-gray-600 mt-2">Vehicles are inspected regularly to maintain hygiene and comfort.</p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition col-span-1 sm:col-span-2 lg:col-span-3">
+        <h3 class="font-semibold text-blue-600">Safety Kits & Emergency Readiness</h3>
+        <p class="text-sm text-gray-600 mt-2">
+          Each vehicle is equipped with First Aid, Fire Extinguishers, Do & Don’ts instructions, and emergency contacts.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 </main>
