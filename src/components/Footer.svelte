@@ -18,9 +18,9 @@
       <h3 class="text-lg font-semibold text-white mb-2">Quick Links</h3>
       <ul class="space-y-1 text-sm">
         <li><a href="/" class="hover:underline">Home</a></li>
-        <li><a href="/about" class="hover:underline">About</a></li>
-        <li><a href="/packages" class="hover:underline">Services</a></li>
-        <li><a href="/contact" class="hover:underline">Contact</a></li>
+        <li><a href="/aboutus" class="hover:underline">About</a></li>
+        <li><a href="/" class="hover:underline">Services</a></li>
+        <li><a href="/" class="hover:underline">Contact</a></li>
       </ul>
     </div>
 

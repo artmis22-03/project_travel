@@ -16,7 +16,7 @@
 
             <!-- Desktop Menu -->
             <div class="hidden md:flex md:items-center md:space-x-8 ml-10">
-              <a href="#" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Home</a>
+              <a href="/" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Home</a>
               <a href="/aboutus" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">About</a>
 
               <!-- Services dropdown on hover (desktop) -->
