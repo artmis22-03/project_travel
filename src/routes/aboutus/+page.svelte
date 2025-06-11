@@ -47,13 +47,13 @@
     </div>
 
     <!-- Optional Image or CTA -->
-    <div class="mt-20 text-center">
+    <!-- <div class="mt-20 text-center">
       <img
         src="/images/about-banner.jpg"
         alt="Fleet or Team"
         class="mx-auto rounded-xl shadow-md w-full md:w-3/4 transition duration-300 hover:shadow-xl"
       />
       <p class="text-sm text-gray-500 mt-3">Delivering exceptional service across every mile.</p>
-    </div>
+    </div> -->
   </div>
 </section>
