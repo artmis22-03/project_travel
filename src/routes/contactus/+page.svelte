@@ -66,7 +66,7 @@
     <!-- Additional About Text -->
     <div class="text-center max-w-3xl mx-auto text-gray-700 text-lg">
       <p>
-        At <span class="font-semibold text-blue-700">Vehicle Rental</span>, we aim to make your journey smooth, comfortable, and memorable.
+        At <span class="font-semibold text-blue-700">SierraTravels</span>, we aim to make your journey smooth, comfortable, and memorable.
         Whether it's a weekend getaway or a business trip, our fleet of well-maintained vehicles and professional service ensures your travel needs are met with excellence.
         Customer satisfaction is our priority, and we look forward to being part of your travel story.
       </p>
