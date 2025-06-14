@@ -31,12 +31,12 @@
                 <div
                   class="absolute z-40 w-48 bg-white border border-gray-200 rounded shadow-lg opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-200"
                 >
-                  <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Vehicle Rentals</a>
+                  <a href="/rentals" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Vehicle Rentals</a>
                   <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Employee Transportation</a>
                 </div>
               </div>
 
-              <a href="#" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Contact Us</a>
+              <a href="/contactus" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Contact Us</a>
             </div>
           </div>
 
@@ -60,8 +60,8 @@
       <!-- Mobile Menu -->
       {#if isOpen}
         <div class="md:hidden bg-white border-t border-gray-200">
-          <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Home</a>
-          <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">About</a>
+          <a href="/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Home</a>
+          <a href="/aboutus" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">About</a>
 
           <!-- Services Toggle in Mobile -->
           <div class="block border-t border-gray-200">
@@ -82,13 +82,13 @@
 
             {#if servicesOpen}
               <div class="pl-8 pr-4">
-                <a href="#" class="block py-2 text-gray-800 hover:bg-gray-100 rounded">Vehicle Rentals</a>
+                <a href="/rentals" class="block py-2 text-gray-800 hover:bg-gray-100 rounded">Vehicle Rentals</a>
                 <a href="#" class="block py-2 text-gray-800 hover:bg-gray-100 rounded">Employee Transportation</a>
               </div>
             {/if}
           </div>
 
-          <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Contact Us</a>
+          <a href="/contactus" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Contact Us</a>
         </div>
       {/if}
     </nav>
@@ -102,11 +102,10 @@
   class="fixed bottom-4 right-4 bg-[#25D366] text-white p-3 rounded-full shadow-lg flex items-center justify-center hover:bg-green-500 transition duration-300 z-50"
   aria-label="Chat on WhatsApp"
 >
-  <!-- WhatsApp Icon -->
-  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:mr-2" fill="currentColor" viewBox="0 0 24 24">
-    <path d="M20.52 3.48A11.78 11.78 0 0 0 2.41 19.37L1 23l3.72-1.17a11.75 11.75 0 0 0 5.56 1.41h.05a11.78 11.78 0 0 0 10.19-19.76ZM12 21.5a9.62 9.62 0 0 1-4.88-1.3l-.35-.21-2.64.82.85-2.58-.23-.37a9.62 9.62 0 1 1 7.25 3.64Zm5.2-7.16c-.28-.14-1.66-.82-1.91-.91s-.44-.14-.63.14-.72.91-.88 1.1-.33.21-.61.07a7.84 7.84 0 0 1-2.3-1.42 8.59 8.59 0 0 1-1.59-2c-.17-.29 0-.45.13-.6.13-.13.29-.33.44-.49a2 2 0 0 0 .3-.49.53.53 0 0 0 0-.49c-.07-.14-.63-1.52-.86-2.08s-.45-.46-.63-.47h-.53a1 1 0 0 0-.71.33 2.94 2.94 0 0 0-.93 2.17 5.13 5.13 0 0 0 1.1 2.63 11.82 11.82 0 0 0 4.51 4.08 14.42 14.42 0 0 0 1.43.53 3.45 3.45 0 0 0 1.58.1 2.64 2.64 0 0 0 1.73-1.22 2.22 2.22 0 0 0 .16-1.22c-.07-.12-.26-.19-.54-.33Z"/>
-  </svg>
+  <!-- Custom WhatsApp Icon -->
+  <img src="/whatsapp-symbol-logo-svgrepo-com.svg" alt="WhatsApp" class="h-5 w-5 md:mr-2" />
 
   <!-- Show label only on md+ screens -->
   <span class="hidden md:inline text-sm font-semibold">Chat on WhatsApp</span>
 </a>
+
