@@ -82,7 +82,7 @@
             SierraTravels provides top-notch employee transportation and reliable vehicle rentals across India.
             We specialize in comfort, punctuality, and professional service.
           </p>
-          <a href="#contact" class="text-blue-600 font-semibold hover:underline">Contact Us &rarr;</a>
+          <a href="/contactus" class="text-blue-600 font-semibold hover:underline">Contact Us &rarr;</a>
         </div>
 
         <!-- Card 2 -->
@@ -93,7 +93,7 @@
           <p class="text-gray-700 mb-4">
             Our well-maintained fleet, 24/7 support, and customer-first approach make us a trusted name for businesses and individuals alike.
           </p>
-          <a href="#services" class="text-blue-600 font-semibold hover:underline">View Our Services &rarr;</a>
+          <a href="/rentals" class="text-blue-600 font-semibold hover:underline">View Our Services &rarr;</a>
         </div>
       </div>
     </div>
@@ -106,57 +106,67 @@
 >
   <!-- Overlay -->
   <div class="absolute inset-0 bg-black bg-opacity-60"></div>
-  
-  <div class="relative z-4 max-w-3xl mx-auto">
-    <h2 class="text-3xl text-white font-extrabold text-center mb-12">Have a Doubt?</h2>
-    <h2 class="text-2xl text-white font-bold text-center mb-12">Write us your question & we will get back to you</h2>
-    
-    <div
-      class="backdrop-blur-lg bg-white/20 rounded-3xl p-8 shadow-2xl border border-white/30 text-white"
+
+<div class="relative z-4 max-w-3xl mx-auto">
+  <h2 class="text-3xl text-white font-extrabold text-center mb-4">Have a Doubt?</h2>
+  <h2 class="text-2xl text-white font-bold text-center mb-12">Write us your question & we will get back to you</h2>
+
+  <div class="backdrop-blur-lg bg-white/20 rounded-3xl p-8 shadow-2xl border border-white/30 text-white">
+    <h2 class="text-3xl font-bold mb-6 text-center">Enquiry Form</h2>
+
+    <!-- Begin mailto form -->
+    <form
+      action="mailto:youremail@example.com"
+      method="POST"
+      enctype="text/plain"
+      class="space-y-6"
     >
-      <h2 class="text-3xl font-bold mb-6 text-center">Enquiry Form</h2>
-      <form class="space-y-6">
-        <div>
-          <label class="block mb-2 font-semibold">Full Name</label>
-          <input
-            type="text"
-            placeholder="Enter your name"
-            class="w-full px-4 py-3 rounded-xl bg-white/80 text-black placeholder-gray-500 outline-none focus:ring-2 focus:ring-blue-400 transition"
-            required
-          />
-        </div>
+      <div>
+        <label class="block mb-2 font-semibold">Full Name</label>
+        <input
+          type="text"
+          name="Full Name"
+          placeholder="Enter your name"
+          class="w-full px-4 py-3 rounded-xl bg-white/80 text-black placeholder-gray-500 outline-none focus:ring-2 focus:ring-blue-400 transition"
+          required
+        />
+      </div>
 
-        <div>
-          <label class="block mb-2 font-semibold">Email Address</label>
-          <input
-            type="email"
-            placeholder="Enter your email"
-            class="w-full px-4 py-3 rounded-xl bg-white/80 text-black placeholder-gray-500 outline-none focus:ring-2 focus:ring-blue-400 transition"
-            required
-          />
-        </div>
+      <div>
+        <label class="block mb-2 font-semibold">Email Address</label>
+        <input
+          type="email"
+          name="Email"
+          placeholder="Enter your email"
+          class="w-full px-4 py-3 rounded-xl bg-white/80 text-black placeholder-gray-500 outline-none focus:ring-2 focus:ring-blue-400 transition"
+          required
+        />
+      </div>
 
-        <div>
-          <label class="block mb-2 font-semibold">Message</label>
-          <textarea
-            placeholder="Tell us what you need"
-            rows="4"
-            class="w-full px-4 py-3 rounded-xl bg-white/80 text-black placeholder-gray-500 outline-none focus:ring-2 focus:ring-blue-400 transition"
-            required
-          ></textarea>
-        </div>
+      <div>
+        <label class="block mb-2 font-semibold">Message</label>
+        <textarea
+          name="Message"
+          placeholder="Tell us what you need"
+          rows="4"
+          class="w-full px-4 py-3 rounded-xl bg-white/80 text-black placeholder-gray-500 outline-none focus:ring-2 focus:ring-blue-400 transition"
+          required
+        ></textarea>
+      </div>
 
-        <div class="text-center">
-          <button
-            type="submit"
-            class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg transition duration-300"
-          >
-            Submit Enquiry
-          </button>
-        </div>
-      </form>
-    </div>
+      <div class="text-center">
+        <button
+          type="submit"
+          class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg transition duration-300"
+        >
+          Submit Enquiry
+        </button>
+      </div>
+    </form>
+    <!-- End mailto form -->
   </div>
+</div>
+
 </section>
 <section class="bg-white py-16 px-6 md:px-12">
   <div class="max-w-7xl mx-auto">
