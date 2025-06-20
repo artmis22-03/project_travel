@@ -31,7 +31,7 @@
                   class="absolute z-40 w-48 bg-white border border-gray-200 rounded shadow-lg opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-200"
                 >
                   <a href="/rentals" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Vehicle Rentals</a>
-                  <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Employee Transportation</a>
+                  <a href="/employeetransport" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Employee Transportation</a>
                 </div>
               </div>
 
@@ -79,7 +79,7 @@
             {#if servicesOpen}
               <div class="pl-8 pr-4">
                 <a href="/rentals" class="block py-2 text-gray-800 hover:bg-gray-100 rounded" on:click={() => isOpen = false}>Vehicle Rentals</a>
-                <a href="#" class="block py-2 text-gray-800 hover:bg-gray-100 rounded" on:click={() => isOpen = false}>Employee Transportation</a>
+                <a href="/employeetransport" class="block py-2 text-gray-800 hover:bg-gray-100 rounded" on:click={() => isOpen = false}>Employee Transportation</a>
               </div>
             {/if}
           </div>
