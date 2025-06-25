@@ -7,7 +7,7 @@
     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
     <div class="relative z-1 text-center px-6">
       <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-4 drop-shadow-lg">
-        Explore the World with <span class="text-blue-400">SierraTravels</span>
+        Your Gateway to Travel - <span class="text-blue-400">SierraTravels</span>
       </h1>
       <p class="text-lg md:text-xl text-gray-200 mb-6 max-w-2xl mx-auto">
         Unforgettable journeys, dependable service, and travel comfort that feels like home.

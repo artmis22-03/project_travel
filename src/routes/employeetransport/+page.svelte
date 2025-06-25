@@ -4,22 +4,43 @@
       title: "Employee Shuttle Services",
       description:
         "Our employee shuttle services provide convenient and reliable transportation options for companies, ensuring smooth and punctual commuting for their workforce.",
-      image: "/images/shuttle.jpg",
+      image: "/etios.jpg",
       reverse: false,
     },
     {
       title: "Executive Transportation",
       description:
         "Our executive transportation services cater to the specific needs of high-level professionals, providing luxurious vehicles and professional chauffeurs for a comfortable and prestigious travel experience.",
-      image: "/images/executive.jpg",
+      image: "/hycross.jpg",
       reverse: true,
     },
     {
       title: "Corporate Pickup and Drop Solutions",
       description:
         "We offer tailored pickup and drop solutions for corporate clients, streamlining the transportation process and ensuring prompt and efficient travel for executives and employees.",
-      image: "/images/corporate.jpg",
+      image: "/crysta.jpg",
       reverse: false,
+    },
+    {
+      title: "Ad-Hoc Cabs",
+      description:
+        "On-demand cab services for employees, used for urgent or unscheduled travel. Typically used for client meetings, hospital visits, or unplanned office travel needs.",
+      image: "/urbania.jpg",
+      reverse: true,
+    },
+    {
+      title: "Airport Transfer",
+      description:
+        "Pre-arranged transport for employees traveling for business, ensuring smooth and timely transfer between the airport and office or home, including assistance for early morning or late-night flights.",
+      image: "/etios.jpg",
+      reverse: false,
+    },
+    {
+      title: "Event Travel",
+      description:
+        "Transport arrangements for company events such as team outings, conferences, or training sessions. This could involve multiple pick-up points and coordinating large fleets of buses or vans.",
+      image: "/urbania.jpg",
+      reverse: true,
     },
   ];
 </script>
@@ -27,7 +48,7 @@
 <!-- Hero Section -->
 <section
   class="relative h-[80vh] flex items-center justify-center bg-cover bg-center"
-  style="background-image: url('/images/rental-hero.jpg');"
+  style="background-image: url('/ser2.jpg');"
 >
   <div class="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
   <div class="relative z-1 text-center text-white px-4">
