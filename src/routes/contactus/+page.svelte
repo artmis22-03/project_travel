@@ -44,26 +44,52 @@
 
       <!-- Enquiry Form -->
       <div class="bg-white p-8 rounded-3xl shadow-xl">
-        <h2 class="text-2xl font-semibold text-blue-700 mb-6">Enquiry Form</h2>
-        <form on:submit|preventDefault={handleSubmit} class="space-y-5">
-          <div>
-            <label class="block text-sm font-medium text-gray-600">Name</label>
-            <input type="text" bind:value={name} class="w-full mt-1 border border-gray-300 rounded-xl px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
-          </div>
-          <div>
-            <label class="block text-sm font-medium text-gray-600">Email</label>
-            <input type="email" bind:value={email} class="w-full mt-1 border border-gray-300 rounded-xl px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
-          </div>
-          <div>
-            <label class="block text-sm font-medium text-gray-600">Message</label>
-            <textarea bind:value={message} rows="4" class="w-full mt-1 border border-gray-300 rounded-xl px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" required></textarea>
-          </div>
-          <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded-xl hover:bg-blue-700 shadow-lg transition duration-200">
-            Submit
-          </button>
-        </form>
-      </div>
+  <h2 class="text-2xl font-semibold text-blue-700 mb-6">Enquiry Form</h2>
+  <form
+    action="mailto: mails@sierratravels.com"
+    method="POST"
+    enctype="text/plain"
+    class="space-y-5"
+  >
+    <div>
+      <label for="name" class="block text-sm font-medium text-gray-600">Name</label>
+      <input
+        id="name"
+        type="text"
+        name="Name"
+        class="w-full mt-1 border border-gray-300 rounded-xl px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+        required
+      />
     </div>
+    <div>
+      <label for="email" class="block text-sm font-medium text-gray-600">Email</label>
+      <input
+        id="email"
+        type="email"
+        name="Email"
+        class="w-full mt-1 border border-gray-300 rounded-xl px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+        required
+      />
+    </div>
+    <div>
+      <label for="message" class="block text-sm font-medium text-gray-600">Message</label>
+      <textarea
+        id="message"
+        name="Message"
+        rows="4"
+        class="w-full mt-1 border border-gray-300 rounded-xl px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+        required
+      ></textarea>
+    </div>
+    <button
+      type="submit"
+      class="bg-blue-600 text-white px-6 py-2 rounded-xl hover:bg-blue-700 shadow-lg transition duration-200"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+</div>
 
     <!-- Additional About Text -->
     <div class="text-center max-w-3xl mx-auto text-gray-700 text-lg">

@@ -2,9 +2,10 @@
   <!-- Hero Section -->
   <section
     class="relative h-[90vh] flex items-center justify-center bg-cover bg-center"
-    style="background-image: url('https://source.unsplash.com/1600x900/?travel,nature');"
+    style="background-image: url('/hero.jpg');"
   >
-    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
+
     <div class="relative z-1 text-center px-6">
       <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-4 drop-shadow-lg">
         Your Gateway to Travel - <span class="text-blue-400">SierraTravels</span>
@@ -116,14 +117,15 @@
 
     <!-- Begin mailto form -->
     <form
-      action="mailto:youremail@example.com"
+      action="mailto: mails@sierratravels.com"
       method="POST"
       enctype="text/plain"
       class="space-y-6"
     >
       <div>
-        <label class="block mb-2 font-semibold">Full Name</label>
+        <label for="fullName" class="block mb-2 font-semibold">Full Name</label>
         <input
+          id="fullName"
           type="text"
           name="Full Name"
           placeholder="Enter your name"
@@ -133,8 +135,9 @@
       </div>
 
       <div>
-        <label class="block mb-2 font-semibold">Email Address</label>
+        <label for="email" class="block mb-2 font-semibold">Email Address</label>
         <input
+          id="email"
           type="email"
           name="Email"
           placeholder="Enter your email"
@@ -144,8 +147,9 @@
       </div>
 
       <div>
-        <label class="block mb-2 font-semibold">Message</label>
+        <label for="query" class="block mb-2 font-semibold">Query</label>
         <textarea
+          id="query"
           name="Message"
           placeholder="Tell us what you need"
           rows="4"
@@ -168,6 +172,7 @@
 </div>
 
 </section>
+
 <section class="bg-white py-16 px-6 md:px-12">
   <div class="max-w-7xl mx-auto">
     <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 text-center">Security</h2>

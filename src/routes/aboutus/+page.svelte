@@ -1,12 +1,12 @@
 <script>
   const team = [
     {
-      name: "Name",
+      name: "Nagesh G",
       title: "Founder",
       image: "/founder.jpg", // replace with actual image URL
     },
     {
-      name: "Name",
+      name: "Shreyas W N",
       title: "Managing Director",
       image: "/md.jpg", // replace with actual image URL
     },
