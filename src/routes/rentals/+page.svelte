@@ -9,6 +9,7 @@
     capacity: string;
     rate: string;
     category: string;
+    misc:string;
     images?: string[];
     included?: string[];
     excluded?: string[];
@@ -26,6 +27,7 @@
       capacity: "4+1",
       rate: "Rs.14 per KM",
       category: "Outstation",
+      misc:"Minimum Billable kms per day: 300Kms",
       included: ["Fuel Charges"],
       excluded: [
         "Toll & Parking",
@@ -43,6 +45,7 @@
       capacity: "7+1",
       rate: "Rs.20 per KM",
       category: "Outstation",
+      misc:"Minimum Billable kms per day: 300Kms",
       included: ["Fuel Charges"],
       excluded: [
         "Toll & Parking",
@@ -60,6 +63,7 @@
       capacity: "7+1",
       rate: "Rs.26 per KM",
       category: "Outstation",
+      misc:"Minimum Billable kms per day: 300Kms",
       included: ["Fuel Charges"],
       excluded: [
         "Toll & Parking",
@@ -77,6 +81,7 @@
       capacity: "12+1",
       rate: "Rs.21 per KM",
       category: "Outstation",
+      misc:"Minimum Billable kms per day: 300Kms",
       included: ["Fuel Charges"],
       excluded: [
         "Toll & Parking",
@@ -94,6 +99,7 @@
       capacity: "12+1",
       rate: "Rs.24 per KM",
       category: "Outstation",
+      misc:"Minimum Billable kms per day: 300Kms",
       included: ["Fuel Charges"],
       excluded: [
         "Toll & Parking",
@@ -111,6 +117,7 @@
       capacity: "16+1",
       rate: "Rs.45 per KM",
       category: "Outstation",
+      misc:"Minimum Billable kms per day: 300Kms",
       included: ["Fuel Charges"],
       excluded: [
         "Toll & Parking",
@@ -128,6 +135,7 @@
       capacity: "21+1",
       rate: "Rs.33 per KM",
       category: "Outstation",
+      misc:"Minimum Billable kms per day: 300Kms",
       included: ["Fuel Charges"],
       excluded: [
         "Toll & Parking",
@@ -146,6 +154,7 @@
       rate: "Rs.2,400/-",
       included: ["Fuel Charges", "8hrs - 80KMs","Driver Allowance"],
       category: "Local",
+      misc:"",
       excluded: [
         "Extra KMs : Rs.14/- per KM",
         "Extra Hrs : Rs.165/- per Hour",
@@ -163,6 +172,7 @@
       rate: "Rs.3,500/-",
       included: ["Fuel Charges", "8hrs - 80KMs","Driver Allowance"],
       category: "Local",
+      misc:"",
       excluded: [
         "Extra KMs : Rs.20/- per KM",
         "Extra Hrs : Rs.250/- per Hour",
@@ -180,6 +190,7 @@
       rate: "4,000/-",
       included: ["Fuel Charges", "8hrs - 80KMs","Driver Allowance"],
       category: "Local",
+      misc:"",
       excluded: [
         "Extra KMs : Rs.26/- per KM",
         "Extra Hrs : Rs.300/- per Hour",
@@ -197,6 +208,7 @@
       rate: "Rs.4,500/-",
       included: ["Fuel Charges", "8hrs - 80KMs","Driver Allowance"],
       category: "Local",
+      misc:"",
       excluded: [
         "Extra KMs : Rs.22/- per KM",
         "Extra Hrs : Rs.300/- per Hour",
@@ -214,6 +226,7 @@
       rate: "Rs.9,000/-",
       included: ["Fuel Charges", "8hrs - 80KMs","Driver Allowance"],
       category: "Local",
+      misc:"",
       excluded: [
         "Extra KMs : Rs.45/- per KM",
         "Extra Hrs : Rs.600/- per Hour",
@@ -231,6 +244,7 @@
       rate: "Rs.7,750/-",
       included: ["Fuel Charges", "8hrs - 80KMs","Driver Allowance"],
       category: "Local",
+      misc:"",
       excluded: [
         "Extra KMs : Rs.33/- per KM",
         "Extra Hrs : Rs.720/- per Hour",
@@ -248,6 +262,7 @@
       rate: "Rs.1,400/-",
       included: ["Fuel Charges", "Charges upto 45Kms","Driver Allowance"],
       category: "Airport Drop",
+      misc:"",
       excluded: [
         "Toll/State Tax",
         "Parking",
@@ -264,6 +279,7 @@
       rate: "Rs.2,800/-",
       included: ["Fuel Charges", "Charges upto 45Kms","Driver Allowance"],
       category: "Airport Drop",
+      misc:"",
       excluded: [
         "Toll/State Tax",
         "Parking",
@@ -279,6 +295,7 @@
       rate: "3,500/-",
       included: ["Fuel Charges", "Charges upto 45Kms","Driver Allowance"],
       category: "Airport Drop",
+      misc:"",
       excluded: [
         "Toll/State Tax",
         "Parking",
@@ -294,6 +311,7 @@
       rate: "Rs.4,500/-",
       included: ["Fuel Charges", "Charges upto 45Kms","Driver Allowance"],
       category: "Airport Drop",
+      misc:"",
       excluded: [
         "Toll/State Tax",
         "Parking",
@@ -309,6 +327,7 @@
       rate: "On Request",
       included: ["Fuel Charges", "Charges upto 45Kms","Driver Allowance"],
       category: "Airport Drop",
+      misc:"",
       excluded: [
         "Toll/State Tax",
         "Parking",
@@ -324,6 +343,7 @@
       rate: "On Request",
       included: ["Fuel Charges", "Charges upto 45Kms","Driver Allowance"],
       category: "Airport Drop",
+      misc:"",
       excluded: [
         "Toll/State Tax",
         "Parking",
@@ -407,6 +427,7 @@
         <p class="text-sm text-gray-600">{vehicle.type}</p>
         <p class="text-sm text-gray-800 font-medium mt-2">Capacity: {vehicle.capacity}</p>
         <p class="text-sm text-gray-800 font-medium">Rate: {vehicle.rate}</p>
+        
         <button
           on:click={() => handleKnowMore(vehicle)}
           class="mt-4 w-full bg-blue-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-blue-700 transition duration-300 ease-in-out">
@@ -456,6 +477,7 @@
       <p class="text-gray-600 text-sm mb-1">{selectedVehicle.type}</p>
       <p class="text-gray-800 font-semibold mb-1">Capacity: {selectedVehicle.capacity}</p>
       <p class="text-gray-800 font-semibold mb-4">Rate: {selectedVehicle.rate}</p>
+      <p class="text-gray-800 font-semibold mb-4">{selectedVehicle.misc}</p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 text-sm">
         <div>

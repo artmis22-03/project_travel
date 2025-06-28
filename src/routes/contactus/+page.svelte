@@ -30,7 +30,7 @@
   <!-- WhatsApp Button -->
   <div class="mt-6">
   <a
-    href="https://wa.me/919876543210"
+    href="https://wa.me/919972310009"
     target="_blank"
     class="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-medium px-5 py-2 rounded-xl shadow-md transition"
   >
