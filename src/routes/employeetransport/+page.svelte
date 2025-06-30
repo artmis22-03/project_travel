@@ -46,12 +46,14 @@
 </script>
 
 <!-- Hero Section -->
+<!-- Hero Section -->
 <section
   class="relative h-[80vh] flex items-center justify-center bg-cover bg-center"
   style="background-image: url('/ser2.jpg');"
+  data-aos="fade"
 >
   <div class="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
-  <div class="relative z-1 text-center text-white px-4">
+  <div class="relative z-1 text-center text-white px-4" data-aos="zoom-in">
     <h1 class="text-4xl md:text-5xl font-bold mb-4 drop-shadow">Reliable Employee Transport Services</h1>
     <p class="text-lg md:text-xl max-w-2xl mx-auto mb-6 drop-shadow">
       Flexible and professional transport solutions for businesses and executives.
@@ -66,10 +68,10 @@
 </section>
 
 <!-- Introduction -->
-<section class="bg-gray-50 py-16">
+<section class="bg-gray-50 py-16" data-aos="fade-up">
   <div class="max-w-4xl mx-auto px-6 text-center">
-    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Tailored Employee transport Solutions</h2>
-    <p class="text-gray-600 text-md md:text-lg">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Tailored Employee Transport Solutions</h2>
+    <p class="font-medium text-md md:text-lg">
       Whether it’s daily employee commutes, executive transfers, or flexible corporate pickups, our fleet and professional drivers ensure comfort, safety, and punctuality across all services.
     </p>
   </div>
@@ -78,16 +80,22 @@
 <!-- Services Section -->
 <section class="bg-white py-16">
   <div class="space-y-24">
-    {#each services as service}
-      <div class={`flex flex-col md:flex-row items-center gap-10 px-6 max-w-7xl mx-auto ${service.reverse ? 'md:flex-row-reverse' : ''}`}>
+    {#each services as service, i}
+      <div
+        class={`flex flex-col md:flex-row items-center gap-10 px-6 max-w-7xl mx-auto ${service.reverse ? 'md:flex-row-reverse' : ''}`}
+        data-aos="fade-up"
+        data-aos-delay={i * 200}
+      >
         <img
           src={service.image}
           alt={service.title}
           class="w-full md:w-1/2 h-72 object-cover rounded-2xl shadow-lg hover:scale-105 transition duration-300"
+          data-aos="zoom-in"
+          data-aos-delay={i * 200 + 100}
         />
-        <div class="md:w-1/2">
+        <div class="md:w-1/2" data-aos="fade-left" data-aos-delay={i * 200 + 200}>
           <h3 class="text-2xl md:text-3xl font-extrabold text-blue-900 mb-4">{service.title}</h3>
-          <p class="text-gray-700 text-md md:text-lg leading-relaxed">{service.description}</p>
+          <p class="font-medium text-md md:text-lg leading-relaxed">{service.description}</p>
         </div>
       </div>
     {/each}
@@ -95,7 +103,7 @@
 </section>
 
 <!-- CTA Section -->
-<section class="bg-blue-50 py-20">
+<section class="bg-blue-50 py-20" data-aos="fade-up">
   <div class="text-center max-w-3xl mx-auto px-4">
     <h2 class="text-3xl font-bold text-blue-800 mb-4">Ready to Book a Ride?</h2>
     <p class="text-gray-700 mb-6">
@@ -109,3 +117,4 @@
     </a>
   </div>
 </section>
+

@@ -403,31 +403,37 @@
 <div class="my-16"></div>
 
 <!-- Category Buttons -->
-<div class="flex justify-center gap-4 mb-10">
+<div class="flex flex-wrap justify-center gap-4 mb-10" data-aos="fade-up">
   {#each categories as cat}
     <button
       on:click={() => { selectedCategory = cat; selectedVehicle = null; }}
-      class="px-4 py-2 font-semibold rounded text-white transition duration-300"
-      class:bg-blue-900={selectedCategory === cat}
-      class:bg-red-600={selectedCategory !== cat}>
+      class="px-5 py-2.5 text-sm sm:text-base font-semibold rounded-full transition-all duration-300 shadow-md border
+             hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400
+             {selectedCategory === cat ? 'bg-blue-700 text-white border-blue-800' : 'bg-white text-blue-700 border-blue-300 hover:bg-blue-50'}"
+    >
       {cat}
     </button>
   {/each}
 </div>
 
+
 <!-- Vehicle Cards -->
 {#if !selectedVehicle}
   <!-- Cards Grid -->
   <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 max-w-7xl mx-auto mb-12">
-    {#each filteredVehicles as vehicle}
-      <div class="bg-white rounded-2xl shadow hover:shadow-lg transition p-4">
+    {#each filteredVehicles as vehicle, i}
+      <div
+        class="bg-white rounded-2xl shadow hover:shadow-lg transition p-4"
+        data-aos="fade-up"
+        data-aos-delay={i * 100}
+      >
         <img src={vehicle.image} alt={vehicle.name} class="w-full h-40 object-cover rounded-xl mb-4" />
         <h2 class="text-xl font-semibold text-gray-800">{vehicle.name}</h2>
         <p class="text-sm text-gray-600 mt-1">{vehicle.passengers}</p>
         <p class="text-sm text-gray-600">{vehicle.type}</p>
         <p class="text-sm text-gray-800 font-medium mt-2">Capacity: {vehicle.capacity}</p>
         <p class="text-sm text-gray-800 font-medium">Rate: {vehicle.rate}</p>
-        
+
         <button
           on:click={() => handleKnowMore(vehicle)}
           class="mt-4 w-full bg-blue-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-blue-700 transition duration-300 ease-in-out">
@@ -436,30 +442,32 @@
       </div>
     {/each}
   </div>
-  <div class="w-full bg-white border-t-4 border-blue-500 mt-12">
-      <div class="max-w-7xl mx-auto px-6 py-8">
-        <h2 class="text-2xl font-bold text-blue-700 mb-4">Terms and Conditions</h2>
-        <ul class="list-disc pl-6 space-y-2 text-gray-800 text-sm">
-          <li>Toll, State Tax, Entry Fee & Parking at actuals.</li>
-          <li>The KMS & Hours usage will be calculated from Office to Office (JP Nagar).</li>
-          <li>
-            Cancellation charges:
-            <ul class="list-disc pl-6 mt-1">
-              <li>75% if cancelled 72 hrs prior</li>
-              <li>50% if cancelled 48 hrs prior</li>
-              <li>100% if cancelled 24 hrs prior</li>
-            </ul>
-          </li>
-          <li>GST of 5% is applicable.</li>
-        </ul>
-      </div>
+
+
+    <div class="w-full bg-white border-t-4 border-blue-500 mt-12" data-aos="fade-up">
+    <div class="max-w-7xl mx-auto px-6 py-8">
+      <h2 class="text-2xl font-bold text-blue-700 mb-4">Terms and Conditions</h2>
+      <ul class="list-disc pl-6 space-y-2 text-gray-800 text-sm">
+        <li>Toll, State Tax, Entry Fee & Parking at actuals.</li>
+        <li>The KMS & Hours usage will be calculated from Office to Office (JP Nagar).</li>
+        <li>
+          Cancellation charges:
+          <ul class="list-disc pl-6 mt-1">
+            <li>50% if cancelled 72 hrs prior</li>
+            <li>75% if cancelled 48 hrs prior</li>
+            <li>100% if cancelled 24 hrs prior</li>
+          </ul>
+        </li>
+        <li>GST of 5% is applicable.</li>
+      </ul>
     </div>
+  </div>
+
     <!-- Spacing Section -->
 
 
 {:else}
-  <!-- Detailed View -->
-  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 bg-white shadow-lg rounded-xl overflow-hidden p-6">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 bg-white shadow-lg rounded-xl overflow-hidden p-6" data-aos="fade-up">
     <div class="relative">
       {#if selectedVehicle.images}
         <img
@@ -471,26 +479,27 @@
       <button on:click={nextImage} class="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white text-gray-700 p-2 rounded-l shadow hover:bg-gray-100">❯</button>
     </div>
 
-    <div>
+    <div data-aos="fade-left">
       <h2 class="text-3xl font-bold text-gray-800 mb-4">{selectedVehicle.name}</h2>
-      <p class="text-gray-600 text-sm mb-1">{selectedVehicle.passengers}</p>
-      <p class="text-gray-600 text-sm mb-1">{selectedVehicle.type}</p>
-      <p class="text-gray-800 font-semibold mb-1">Capacity: {selectedVehicle.capacity}</p>
-      <p class="text-gray-800 font-semibold mb-4">Rate: {selectedVehicle.rate}</p>
-      <p class="text-gray-800 font-semibold mb-4">{selectedVehicle.misc}</p>
+      <p class=" text-sm mb-1">{selectedVehicle.passengers}</p>
+      <p class=" text-sm mb-1">{selectedVehicle.type}</p>
+      <p class=" font-semibold mb-1">Capacity: {selectedVehicle.capacity}</p>
+      <p class=" font-semibold mb-4">Rate: {selectedVehicle.rate}</p>
+      <p class=" font-semibold mb-4">{selectedVehicle.misc}</p>
+      <p class=" font-semibold mb-4">{selectedVehicle.excluded?.[2]}</p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 text-sm">
-        <div>
-          <h3 class="font-semibold text-green-700 mb-1">Included</h3>
+        <div data-aos="fade-up" data-aos-delay="200">
+          <h3 class="font-semibold text-blue-700 mb-1">Included</h3>
           <ul class="list-disc list-inside space-y-1 text-gray-700">
             {#each selectedVehicle.included ?? [] as item}
               <li>{item}</li>
             {/each}
           </ul>
         </div>
-        <div>
-          <h3 class="font-semibold text-red-700 mb-1">Excluded</h3>
-          <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <div data-aos="fade-up" data-aos-delay="400">
+          <h3 class="font-semibold text-blue-700 mb-1">Excluded</h3>
+          <ul class="list-disc list-inside space-y-1 ">
             {#each selectedVehicle.excluded ?? [] as item}
               <li>{item}</li>
             {/each}
@@ -503,24 +512,7 @@
       </button>
     </div>
   </div>
-  <div class="w-full bg-white border-t-4 border-blue-500 mt-12">
-      <div class="max-w-7xl mx-auto px-6 py-8">
-        <h2 class="text-2xl font-bold text-blue-700 mb-4">Terms and Conditions</h2>
-        <ul class="list-disc pl-6 space-y-2 text-gray-800 text-sm">
-          <li>Toll, State Tax, Entry Fee & Parking at actuals.</li>
-          <li>The KMS & Hours usage will be calculated from Office to Office (JP Nagar).</li>
-          <li>
-            Cancellation charges:
-            <ul class="list-disc pl-6 mt-1">
-              <li>75% if cancelled 72 hrs prior</li>
-              <li>50% if cancelled 48 hrs prior</li>
-              <li>100% if cancelled 24 hrs prior</li>
-            </ul>
-          </li>
-          <li>GST of 5% is applicable.</li>
-        </ul>
-      </div>
-    </div>
+
 {/if}
 
 
