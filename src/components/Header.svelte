@@ -16,12 +16,12 @@
 
             <!-- Desktop Menu -->
             <div class="hidden md:flex md:items-center md:space-x-8 ml-10">
-              <a href="/" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Home</a>
-              <a href="/aboutus" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">About</a>
+              <a href="/" class="font-medium hover:text-blue-600 px-3 py-2 rounded-md">Home</a>
+              <a href="/aboutus" class="font-medium hover:text-blue-600 px-3 py-2 rounded-md">About</a>
 
               <!-- Services dropdown on hover (desktop) -->
               <div class="relative group">
-                <div class="inline-flex items-center px-2 py-3 text-gray-700 hover:text-blue-600 cursor-pointer">
+                <div class="inline-flex items-center px-2 py-3 font-medium hover:text-blue-600 cursor-pointer">
                   Services
                   <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -30,18 +30,18 @@
                 <div
                   class="absolute z-40 w-48 bg-white border border-gray-200 rounded shadow-lg opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-200"
                 >
-                  <a href="/rentals" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Vehicle Rentals</a>
-                  <a href="/employeetransport" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Employee Transportation</a>
+                  <a href="/rentals" class="block px-4 py-2 font-medium hover:bg-gray-100">Vehicle Rentals</a>
+                  <a href="/employeetransport" class="block px-4 py-2 font-medium hover:bg-gray-100">Employee Transportation</a>
                 </div>
               </div>
 
-              <a href="/contactus" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Contact Us</a>
+              <a href="/contactus" class="font-medium hover:text-blue-600 px-3 py-2 rounded-md">Contact Us</a>
             </div>
           </div>
 
           <!-- Mobile menu button -->
           <div class="md:hidden flex items-center">
-            <button on:click={() => isOpen = !isOpen} class="text-gray-700 hover:text-blue-600 focus:outline-none">
+            <button on:click={() => isOpen = !isOpen} class="font-medium hover:text-blue-600 focus:outline-none">
               <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 {#if isOpen}
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -57,14 +57,14 @@
       <!-- Mobile Menu -->
       {#if isOpen}
         <div class="md:hidden bg-white border-t border-gray-200">
-          <a href="/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" on:click={() => isOpen = false}>Home</a>
-          <a href="/aboutus" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" on:click={() => isOpen = false}>About</a>
+          <a href="/" class="block px-4 py-2 font-medium hover:bg-gray-100" on:click={() => isOpen = false}>Home</a>
+          <a href="/aboutus" class="block px-4 py-2 font-medium hover:bg-gray-100" on:click={() => isOpen = false}>About</a>
 
           <!-- Services Toggle in Mobile -->
           <div class="block border-t border-gray-200">
             <button 
               on:click={() => servicesOpen = !servicesOpen} 
-              class="w-full flex justify-between items-center px-4 py-2 text-gray-700 font-semibold hover:bg-gray-100"
+              class="w-full flex justify-between items-center px-4 py-2 font-medium hover:bg-gray-100"
             >
               Services
               <svg 
@@ -78,13 +78,13 @@
 
             {#if servicesOpen}
               <div class="pl-8 pr-4">
-                <a href="/rentals" class="block py-2 text-gray-800 hover:bg-gray-100 rounded" on:click={() => isOpen = false}>Vehicle Rentals</a>
-                <a href="/employeetransport" class="block py-2 text-gray-800 hover:bg-gray-100 rounded" on:click={() => isOpen = false}>Employee Transportation</a>
+                <a href="/rentals" class="block py-2 font-medium hover:bg-gray-100 rounded" on:click={() => isOpen = false}>Vehicle Rentals</a>
+                <a href="/employeetransport" class="block py-2 font-medium hover:bg-gray-100 rounded" on:click={() => isOpen = false}>Employee Transportation</a>
               </div>
             {/if}
           </div>
 
-          <a href="/contactus" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" on:click={() => isOpen = false}>Contact Us</a>
+          <a href="/contactus" class="block px-4 py-2 font-medium hover:bg-gray-100" on:click={() => isOpen = false}>Contact Us</a>
         </div>
       {/if}
     </nav>
