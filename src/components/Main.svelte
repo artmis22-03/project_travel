@@ -48,7 +48,7 @@
   </section>
 
   <!-- Our Values Section -->
-  <section id="values" class="py-20 bg-gradient-to-br from-pink-200 to-pink-250" data-aos="fade-up">
+  <section id="values" class="py-20 bg-gradient-to-br from-purple-200 to-purple-250" data-aos="fade-up">
     <div class="max-w-7xl mx-auto px-4 text-center">
       <h2 class="text-3xl font-extrabold mb-12 text-gray-800">Our Core Values</h2>
       <div class="grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
@@ -92,8 +92,7 @@
       <div class="grid gap-8 md:grid-cols-2">
         <div
           class="bg-blue-50 p-8 rounded-3xl shadow-2xl hover:shadow-blue-100 transition-all duration-500 transform hover:-translate-y-1"
-          data-aos="flip-left"
-        >
+          data-aos="flip-left">
           <h3 class="text-2xl font-bold mb-4 text-blue-700">What We Do</h3>
           <p class="text-gray-700 mb-4">
             SierraTravels provides top-notch employee transportation and reliable vehicle rentals across India.
@@ -116,79 +115,52 @@
     </div>
   </section>
 
-  <!-- Enquiry Section -->
-<section
-  id="enquiry"
-  class="relative bg-cover bg-center py-24 px-6"
-  style="background-image: url('https://source.unsplash.com/1600x900/?travel,bus,road');"
+<section class="bg-black text-white py-16 px-6 md:px-12" data-aos="fade-up">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    
+    <!-- Left Column -->
+    <div class="space-y-6">
+      <p class="uppercase tracking-widest text-purple-400 text-sm">About Us</p>
+      <h2 class="text-4xl md:text-5xl font-extrabold text-purple-200 leading-tight">
+        Reliable Corporate Travel, <br />
+        Backed by Decades of Experience
+      </h2>
+      <p class="text-gray-300 text-lg leading-relaxed">
+        Founded in 1991, we’ve built a reputation for punctuality, professionalism, and premium service.
+        Today, Sierra Travels stands as a trusted provider of full-stack corporate car rental services.
+      </p>
+      <a
+  href="/aboutus"
+  class="mt-4 inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-3 rounded-full transition duration-300"
 >
-  <!-- Overlay -->
-  <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+  Know More &rarr;
+</a>
 
-<div class="relative z-4 max-w-3xl mx-auto">
-  <h2 class="text-3xl text-white font-extrabold text-center mb-4">Have a Doubt?</h2>
-  <h2 class="text-2xl text-white font-bold text-center mb-12">Write us your question & we will get back to you</h2>
+    </div>
 
-  <div class="backdrop-blur-lg bg-white/20 rounded-3xl p-8 shadow-2xl border border-white/30 text-white">
-    <h2 class="text-3xl font-bold mb-6 text-center">Enquiry Form</h2>
-
-    <!-- Begin mailto form -->
-    <form
-      action="mailto: mails@sierratravels.com"
-      method="POST"
-      enctype="text/plain"
-      class="space-y-6"
-    >
-      <div>
-        <label for="fullName" class="block mb-2 font-semibold">Full Name</label>
-        <input
-          id="fullName"
-          type="text"
-          name="Full Name"
-          placeholder="Enter your name"
-          class="w-full px-4 py-3 rounded-xl bg-white/80 text-black placeholder-gray-500 outline-none focus:ring-2 focus:ring-blue-400 transition"
-          required
-        />
+    <!-- Right Column: Stats Grid -->
+    <div class="grid grid-cols-2 gap-6">
+      <div class="bg-gray-900 p-6 rounded-2xl text-center shadow-lg" data-aos="zoom-in" data-aos-delay="100">
+        <p class="text-4xl font-bold text-purple-400">30+</p>
+        <p class="mt-2 text-gray-400">Years of Experience</p>
       </div>
-
-      <div>
-        <label for="email" class="block mb-2 font-semibold">Email Address</label>
-        <input
-          id="email"
-          type="email"
-          name="Email"
-          placeholder="Enter your email"
-          class="w-full px-4 py-3 rounded-xl bg-white/80 text-black placeholder-gray-500 outline-none focus:ring-2 focus:ring-blue-400 transition"
-          required
-        />
+      <div class="bg-gray-900 p-6 rounded-2xl text-center shadow-lg" data-aos="zoom-in" data-aos-delay="200">
+        <p class="text-4xl font-bold text-purple-400">200+</p>
+        <p class="mt-2 text-gray-400">Corporate Clients</p>
       </div>
-
-      <div>
-        <label for="query" class="block mb-2 font-semibold">Query</label>
-        <textarea
-          id="query"
-          name="Message"
-          placeholder="Tell us what you need"
-          rows="4"
-          class="w-full px-4 py-3 rounded-xl bg-white/80 text-black placeholder-gray-500 outline-none focus:ring-2 focus:ring-blue-400 transition"
-          required
-        ></textarea>
+      <div class="bg-gray-900 p-6 rounded-2xl text-center shadow-lg" data-aos="zoom-in" data-aos-delay="300">
+        <p class="text-4xl font-bold text-purple-400">500+</p>
+        <p class="mt-2 text-gray-400">Fleet Vehicles</p>
       </div>
-
-      <div class="text-center">
-        <button
-          type="submit"
-          class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg transition duration-300"
-        >
-          Submit Enquiry
-        </button>
+      <div class="bg-gray-900 p-6 rounded-2xl text-center shadow-lg" data-aos="zoom-in" data-aos-delay="400">
+        <p class="text-4xl font-bold text-purple-400">1M+</p>
+        <p class="mt-2 text-gray-400">Trips Completed</p>
       </div>
-    </form>
-    <!-- End mailto form -->
+    </div>
+
   </div>
-</div>
-
 </section>
+
 
 <section class="bg-white py-16 px-6 md:px-12">
   <div class="max-w-7xl mx-auto">
@@ -245,35 +217,64 @@
 <!-- This conditional block now renders a non-blocking toast notification -->
 {#if showPopup}
   <div
-    class="fixed bottom-4 left-4 z-50 p-4"
-    transition:fly={{ y: 50, duration: 500 }}
+    class="fixed bottom-6 left-6 z-50"
+    transition:fly={{ y: 50, duration: 600 }}
   >
     <div
-      class="bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg shadow-2xl p-4 max-w-sm w-11/12 flex items-center justify-between transform transition-transform duration-200 hover:scale-[1.02]"
+      class="relative bg-gradient-to-r from-orange-400 via-pink-400 to-purple-500 text-white rounded-2xl shadow-xl p-6 w-[90vw] max-w-sm animate-slide-in overflow-hidden"
     >
-      <!-- Icon and Text Container -->
-      <div class="flex items-center space-x-3">
-        <!-- Success Checkmark Icon (Inline SVG for simplicity) -->
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+      <!-- Decorative Clouds -->
+      <div class="absolute top-0 left-0 w-full h-full opacity-20 pointer-events-none">
+        <svg viewBox="0 0 200 100" class="w-full h-full">
+          <ellipse cx="50" cy="50" rx="50" ry="25" fill="white" />
+          <ellipse cx="150" cy="50" rx="50" ry="25" fill="white" />
         </svg>
-
-        <div>
-          <h3 class="text-lg font-bold mb-1">WE updated our name!</h3>
-          <p class="text-sm">We are now "<span class="font-semibold">SierraTravels!</span>".</p>
-        </div>
       </div>
 
-      <!-- Dismiss Button -->
+      <!-- Airplane Icon -->
+      <div class="flex items-center mb-3 relative z-10">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mr-3 animate-plane" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M2.5 19.5l19-7-19-7v5l14 2-14 2v5z"/>
+        </svg>
+        <h3 class="text-xl font-extrabold">Same Rides, Fresh New Name! 🚗</h3>
+      </div>
+
+      <!-- Highlighted Name -->
+      <p class="text-sm relative z-10">
+        Say hello to  
+        <span class="block text-2xl font-extrabold text-blue-600 drop-shadow-lg">
+          SierraTravels
+        </span>  
+        — your commute partner, refreshed and rebranded!
+      </p>
+
+      <!-- Button -->
       <button
         on:click={closePopup}
-        class="text-white hover:text-gray-200 transition-colors"
-        aria-label="Dismiss notification"
+        class="mt-4 bg-white text-orange-600 font-bold px-5 py-1.5 rounded-full shadow hover:scale-105 transition relative z-10"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-        </svg>
+        Let’s Go!
       </button>
     </div>
   </div>
 {/if}
+
+<style>
+  @keyframes slide-in {
+    0% { transform: translateY(50px) scale(0.95); opacity: 0; }
+    60% { transform: translateY(0) scale(1.05); opacity: 1; }
+    100% { transform: scale(1); }
+  }
+  .animate-slide-in {
+    animation: slide-in 0.6s ease-out;
+  }
+
+  @keyframes plane {
+    0% { transform: translateX(0) rotate(0deg); }
+    50% { transform: translateX(5px) rotate(2deg); }
+    100% { transform: translateX(0) rotate(0deg); }
+  }
+  .animate-plane {
+    animation: plane 1.5s ease-in-out infinite;
+  }
+</style>
