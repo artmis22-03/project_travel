@@ -83,8 +83,36 @@
               required
             />
           </div>
+          <div data-aos="fade-up" data-aos-delay="200">
+            <label for="name" class="block text-sm font-medium text-gray-600">Number</label>
+            <input
+              id="number"
+              type="number"
+              name="Number"
+              class="w-full mt-1 border border-gray-300 rounded-xl px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              required
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-delay="200">
+          <label for="number" class="block text-sm font-medium text-gray-600">Vehicle</label>
+          <select
+            id="vehicle"
+            name="Number"
+            class="w-full mt-1 border border-gray-300 rounded-xl px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            required
+          >
+            <option value="">Select the vehicle</option>
+            <option value="etios">Etios</option>
+            <option value="Innova Crysta">Innova Crysta</option>
+            <option value="Innova Hycross">Innova Hycross</option>
+            <option value="Tempo Traveller">Tempo Traveller</option>
+            <option value="Force Urbania">Force Urbania</option>
+            <option value="Mini Bus">Mini Bus</option>
+          </select>
+        </div>
+
           <div data-aos="fade-up" data-aos-delay="300">
-            <label for="email" class="block text-sm font-medium text-gray-600">Email</label>
+            <label for="email" class="block text-sm font-medium text-gray-600">Email</label>    
             <input
               id="email"
               type="email"

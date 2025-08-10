@@ -84,6 +84,39 @@
       </div>
     </div>
   </section>
+<section class="bg-black text-white py-16">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-purple-400 uppercase tracking-widest mb-4">Testimonials</h2>
+    <h3 class="text-4xl font-bold text-purple-200 mb-12">
+      What Our Clients Say
+    </h3>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Testimonial Card 1 -->
+      <div class="bg-[#0b0f1a] rounded-xl p-6 shadow-lg hover:shadow-purple-500/20 transition">
+        <p class="text-gray-300 mb-6">
+          Sri Annapoorneshwari Travels has always provided great support for BrightDrive.
+          Your operations team is excellent on-site and consistently meets our day-to-day needs.
+          Whether it’s additional support for new vehicles, events, late-night cabs, or luxury buses for clients,
+          you’ve always been supportive.
+        </p>
+        <p class="font-semibold text-purple-300">ESWAR D</p>
+        <p class="text-gray-500 text-sm">Bright DriveHCS Bangalore</p>
+      </div>
+
+      <!-- Testimonial Card 2 -->
+      <div class="bg-[#0b0f1a] rounded-xl p-6 shadow-lg hover:shadow-purple-500/20 transition">
+        <p class="text-gray-300 mb-6">
+          Their live tracking feature and well-maintained vehicles give us complete peace of mind
+          for our daily corporate travel needs.
+        </p>
+        <p class="font-semibold text-purple-300">Priya Sharma</p>
+        <p class="text-gray-500 text-sm">HR Head</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   <!-- Know More Section as 2 Cards -->
   <section class="py-20 bg-white" data-aos="fade-up">
@@ -109,7 +142,7 @@
           <p class="text-gray-700 mb-4">
             Our well-maintained fleet, 24/7 support, and customer-first approach make us a trusted name for businesses and individuals alike.
           </p>
-          <a href="/rentals" class="text-blue-600 font-semibold hover:underline">View Our Services &rarr;</a>
+          <a href="/employeetransport" class="text-blue-600 font-semibold hover:underline">View Our Services &rarr;</a>
         </div>
       </div>
     </div>
@@ -170,44 +203,60 @@
     </p>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
-        <h3 class="font-semibold text-blue-600">GPS with Live Tracking</h3>
-        <p class="text-sm text-gray-600 mt-2">Monitor real-time location of vehicles for enhanced security and visibility.</p>
-      </div>
-
-      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
-        <h3 class="font-semibold text-blue-600">Safety Belts for Passengers</h3>
-        <p class="text-sm text-gray-600 mt-2">All seats equipped with seat belts to ensure passenger safety.</p>
-      </div>
-
-      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
-        <h3 class="font-semibold text-blue-600">Driver & Vehicle Compliance</h3>
-        <p class="text-sm text-gray-600 mt-2">Both software-based and manual checks ensure legal and safety compliance.</p>
-      </div>
-
-      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
-        <h3 class="font-semibold text-blue-600">Regular Maintenance</h3>
-        <p class="text-sm text-gray-600 mt-2">Vehicles undergo routine servicing to avoid breakdowns and ensure performance.</p>
-      </div>
-
-      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
-        <h3 class="font-semibold text-blue-600">Safety Kits & Emergency Readiness</h3>
-        <p class="text-sm text-gray-600 mt-2">
-          Each vehicle is equipped with First Aid, Fire Extinguishers, Do & Don’ts instructions, and emergency contacts.
-        </p>
-      </div>
-
-      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
-        <h3 class="font-semibold text-blue-600">Cleanliness Checks</h3>
-        <p class="text-sm text-gray-600 mt-2">Vehicles are inspected regularly to maintain hygiene and comfort.</p>
-      </div>
-
-      <!-- <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition col-span-1 sm:col-span-2 lg:col-span-3">
-        <h3 class="font-semibold text-blue-600">Safety Kits & Emergency Readiness</h3>
-        <p class="text-sm text-gray-600 mt-2">
-          Each vehicle is equipped with First Aid, Fire Extinguishers, Do & Don’ts instructions, and emergency contacts.
-        </p>
-      </div> -->
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition flex items-start space-x-3">
+        <img src="gps.png" alt="GPS Icon" class="w-6 h-6 mt-1">
+        <div>
+          <h3 class="font-semibold text-blue-600">GPS with Live Tracking</h3>
+          <p class="text-sm text-gray-600 mt-2">
+            Monitor real-time location of vehicles for enhanced security and visibility.
+          </p>
+        </div>
+    </div>
+    <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition flex items-start space-x-3">
+        <img src="safetybelt.png" alt="GPS Icon" class="w-6 h-6 mt-1">
+        <div>
+          <h3 class="font-semibold text-blue-600">Safety Belts for Passengers</h3>
+          <p class="text-sm text-gray-600 mt-2">
+            All seats equipped with seat belts to ensure passenger safety.
+          </p>
+        </div>
+    </div>
+    <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition flex items-start space-x-3">
+        <img src="compliance.png" alt="GPS Icon" class="w-6 h-6 mt-1">
+        <div>
+          <h3 class="font-semibold text-blue-600">Driver & Vehicle Compliance</h3>
+          <p class="text-sm text-gray-600 mt-2">
+            Both software-based and manual checks ensure legal and safety compliance.
+          </p>
+        </div>
+    </div>
+    <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition flex items-start space-x-3">
+        <img src="maintanence.png" alt="GPS Icon" class="w-6 h-6 mt-1">
+        <div>
+          <h3 class="font-semibold text-blue-600">Regular Maintenance</h3>
+          <p class="text-sm text-gray-600 mt-2">
+            Vehicles undergo routine servicing to avoid breakdowns and ensure performance.
+          </p>
+        </div>
+    </div>
+    <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition flex items-start space-x-3">
+        <img src="safetykit.png" alt="GPS Icon" class="w-6 h-6 mt-1">
+        <div>
+          <h3 class="font-semibold text-blue-600">Safety Kits & Emergency Readiness</h3>
+          <p class="text-sm text-gray-600 mt-2">
+            Each vehicle is equipped with First Aid, Fire Extinguishers, Do & Don’ts instructions, and emergency contacts.
+          </p>
+        </div>
+    </div>
+    <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition flex items-start space-x-3">
+        <img src="cleanliness.png" alt="GPS Icon" class="w-6 h-6 mt-1">
+        <div>
+          <h3 class="font-semibold text-blue-600">Cleanliness Checks</h3>
+          <p class="text-sm text-gray-600 mt-2">
+            Vehicles are inspected regularly to maintain hygiene and comfort.
+          </p>
+        </div>
+    </div>
     </div>
   </div>
 </section>
