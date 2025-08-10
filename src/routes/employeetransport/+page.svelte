@@ -45,6 +45,12 @@
       image: "/bus.jpg",
       reverse: false,
     },
+    {
+      title: "Outstation Travel",
+      description:"Transport services for trips outside the city—whether for official site visits, inter-city meetings, or team excursions. Available as one-way or round trip.",
+      image: "/outstation.jpg",
+      reverse: true,
+    },
   ];
 </script>
 
