@@ -29,7 +29,7 @@
         <h2 class="text-2xl font-semibold text-blue-700 mb-6">Contact Information</h2>
         <div class="space-y-4 font-medium text-lg">
           <p><strong>📞 Phone:</strong> +91 99723 10009</p>
-          <p><strong>✉️ Email:</strong> mails@sierratravels.com</p>
+          <p><strong>✉️ Email:</strong> shreyaswn@satravels.co.in</p>
           <p><strong>📍 Address:</strong> No.135, 2nd Floor, East End 4th Main, JP Nagar 3rd Phase, Bangalore, 560078</p>
         </div>
 
@@ -48,7 +48,7 @@
         <!-- Map -->
         <div class="text-center max-w-md mx-auto font-medium text-lg mt-6" data-aos="zoom-in" data-aos-delay="400">
           <iframe
-            title="Sierra Travels Location Map"
+            title="Sri Annapoorneshwari Travels Location Map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.867745649355!2d77.597606!3d12.916220700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15f897c7d377%3A0x6028602efc8a7779!2sSIERRA%20TRAVELS!5e0!3m2!1sen!2sin!4v1751292727504!5m2!1sen!2sin"
             width="100%"
             height="250"
@@ -66,9 +66,9 @@
         class="bg-white p-8 rounded-3xl shadow-xl"
         data-aos="fade-left"
       >
-        <h2 class="text-2xl font-semibold text-blue-700 mb-6">Enquiry Form</h2>
+        <h2 class="text-2xl font-semibold text-blue-700 mb-6">Contact Form</h2>
         <form
-          action="mailto:mails@sierratravels.com"
+          action="mailto:mails@satravels.co.in"
           method="POST"
           enctype="text/plain"
           class="space-y-5"
@@ -122,7 +122,7 @@
       data-aos-delay="300"
     >
       <p>
-        At <span class="font-semibold text-blue-700">SierraTravels</span>, we aim to make your journey smooth, comfortable, and memorable.
+        At <span class="font-semibold text-blue-700">Sri Annapoorneshwari Travels</span>, we aim to make your journey smooth, comfortable, and memorable.
         Whether it's a weekend getaway or a business trip, our fleet of well-maintained vehicles and professional service ensures your travel needs are met with excellence.
         Customer satisfaction is our priority, and we look forward to being part of your travel story.
       </p>

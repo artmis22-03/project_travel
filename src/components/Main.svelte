@@ -26,14 +26,14 @@
   <!-- Hero Section -->
   <section
     class="relative h-[90vh] flex items-center justify-center bg-cover bg-center"
-    style="background-image: url('/hero.jpg');"
+    style="background-image: url('/main.jpg');"
     data-aos="fade"
   >
-    <div class="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
+    <div class="absolute inset-0 bg-black/50 backdrop-blur-none"></div>
 
     <div class="relative z-1 text-center px-6">
       <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-4 drop-shadow-lg">
-        Your Gateway to Travel - <span class="text-blue-200">SierraTravels</span>
+        Your Gateway to Travel - <span class="text-blue-200">Sri Annapoorneshwari Travels</span>
       </h1>
       <p class="text-lg md:text-xl text-white font-medium mb-6 max-w-2xl mx-auto">
         Unforgettable journeys, dependable service, and travel comfort that feels like home.
@@ -95,7 +95,7 @@
           data-aos="flip-left">
           <h3 class="text-2xl font-bold mb-4 text-blue-700">What We Do</h3>
           <p class="text-gray-700 mb-4">
-            SierraTravels provides top-notch employee transportation and reliable vehicle rentals across India.
+            Annapoorneshwari Travels provides top-notch employee transportation and reliable vehicle rentals across India.
             We specialize in comfort, punctuality, and professional service.
           </p>
           <a href="/contactus" class="text-blue-600 font-semibold hover:underline">Contact Us &rarr;</a>
@@ -127,7 +127,7 @@
       </h2>
       <p class="text-gray-300 text-lg leading-relaxed">
         Founded in 1991, we’ve built a reputation for punctuality, professionalism, and premium service.
-        Today, Sierra Travels stands as a trusted provider of full-stack corporate car rental services.
+        Today, Sri Annapoorneshwari Travels stands as a trusted provider of full-stack corporate car rental services.
       </p>
       <a
   href="/aboutus"
@@ -149,8 +149,8 @@
         <p class="mt-2 text-gray-400">Corporate Clients</p>
       </div>
       <div class="bg-gray-900 p-6 rounded-2xl text-center shadow-lg" data-aos="zoom-in" data-aos-delay="300">
-        <p class="text-4xl font-bold text-purple-400">500+</p>
-        <p class="mt-2 text-gray-400">Fleet Vehicles</p>
+        <p class="text-4xl font-bold text-purple-400">100+</p>
+        <p class="mt-2 text-gray-400">Daily Trips</p>
       </div>
       <div class="bg-gray-900 p-6 rounded-2xl text-center shadow-lg" data-aos="zoom-in" data-aos-delay="400">
         <p class="text-4xl font-bold text-purple-400">1M+</p>
@@ -191,8 +191,10 @@
       </div>
 
       <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
-        <h3 class="font-semibold text-blue-600">Driver Document Renewals</h3>
-        <p class="text-sm text-gray-600 mt-2">On-time renewal tracking for licenses and permits for uninterrupted service.</p>
+        <h3 class="font-semibold text-blue-600">Safety Kits & Emergency Readiness</h3>
+        <p class="text-sm text-gray-600 mt-2">
+          Each vehicle is equipped with First Aid, Fire Extinguishers, Do & Don’ts instructions, and emergency contacts.
+        </p>
       </div>
 
       <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
@@ -200,12 +202,12 @@
         <p class="text-sm text-gray-600 mt-2">Vehicles are inspected regularly to maintain hygiene and comfort.</p>
       </div>
 
-      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition col-span-1 sm:col-span-2 lg:col-span-3">
+      <!-- <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition col-span-1 sm:col-span-2 lg:col-span-3">
         <h3 class="font-semibold text-blue-600">Safety Kits & Emergency Readiness</h3>
         <p class="text-sm text-gray-600 mt-2">
           Each vehicle is equipped with First Aid, Fire Extinguishers, Do & Don’ts instructions, and emergency contacts.
         </p>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
@@ -232,20 +234,15 @@
       </div>
 
       <!-- Airplane Icon -->
-      <div class="flex items-center mb-3 relative z-10">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mr-3 animate-plane" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M2.5 19.5l19-7-19-7v5l14 2-14 2v5z"/>
-        </svg>
-        <h3 class="text-xl font-extrabold">Same Rides, Fresh New Name! 🚗</h3>
-      </div>
+      
 
       <!-- Highlighted Name -->
       <p class="text-sm relative z-10">
         Say hello to  
         <span class="block text-2xl font-extrabold text-blue-600 drop-shadow-lg">
-          SierraTravels
+          Sri Annapoorneshwari Travels
         </span>  
-        — your commute partner, refreshed and rebranded!
+        — your commute partner!
       </p>
 
       <!-- Button -->

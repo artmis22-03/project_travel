@@ -43,10 +43,10 @@
   <!-- Heading -->
   <div class="text-center mb-12" data-aos="fade-down">
     <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4 tracking-tight">
-      About <span class="text-blue-600">SierraTravels</span>
+      About <span class="text-blue-600">Sri Annapoorneshwari Travels</span>
     </h1>
     <p class="text-lg font-semibold max-w-3xl mx-auto leading-relaxed" data-aos="fade-up" data-aos-delay="200">
-      At SierraTravels, we do more than move people — we craft memorable and safe journeys powered by comfort, reliability, and heart.
+      At Annapoorneshwari Travels, we do more than move people — we craft memorable and safe journeys powered by comfort, reliability, and heart.
     </p>
   </div>
 
@@ -56,18 +56,18 @@
 >
   <!-- Text Section -->
   <div class="space-y-5" data-aos="fade-right" data-aos-delay="200">
-    <h2 class="text-3xl font-extrabold text-blue-800">Sierra Travels</h2>
+    <h2 class="text-3xl font-extrabold text-blue-800">Sri Annapoorneshwari Travels</h2>
     <p class="text-justify text-base md:text-lg leading-relaxed text-gray-800">
       <strong>Sri Annapoorneshwari Travels</strong> was founded in 1991 by Mr. Nagesh, with a simple vision — to provide reliable and trustworthy travel services. Over three decades of commitment have led to steady growth, adapting to evolving needs and expanding our reach.
     </p>
     <p class="text-justify text-base md:text-lg leading-relaxed text-gray-800">
-      In 2024, we rebranded as <strong>Sierra Travels</strong>. Today, it is jointly managed by Mr. Nagesh and Mr. Shreyas — a team blending experience with innovation to deliver seamless travel solutions across various sectors.
+     Today, it is jointly managed by Mr. Nagesh and Mr. Shreyas — a team blending experience with innovation to deliver seamless travel solutions across various sectors.
     </p>
     <p class="text-justify text-base md:text-lg leading-relaxed text-gray-800">
-      Built on a foundation of trust, punctuality, and customer satisfaction, Sierra Travels continues to move forward — one journey at a time.
+      Built on a foundation of trust, punctuality, and customer satisfaction, Annapoorneshwari Travels continues to move forward — one journey at a time.
     </p>
     <p class="text-justify text-base md:text-lg leading-relaxed text-gray-800">
-      Based in Bangalore, Sierra is a full-stack corporate car rental services company offering a wide range of vehicles tailored to your needs. Our mission is to deliver safe, reliable, and affordable transport services with unmatched customer service and quality.
+      Based in Bangalore, Annapoorneshwari Travels is a full-stack corporate car rental services company offering a wide range of vehicles tailored to your needs. Our mission is to deliver safe, reliable, and affordable transport services with unmatched customer service and quality.
     </p>
     <ul class="space-y-2 text-gray-800 pt-2">
       <li class="flex items-start">
@@ -102,7 +102,7 @@
   >
     <img
       src="/logo.jpg"
-      alt="Sierra Travels Logo"
+      alt="Annapoorneshwari Travels Logo"
       class="w-full h-full object-cover hover:scale-105 transition-transform duration-500 ease-in-out"
     />
   </div> -->

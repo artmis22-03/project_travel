@@ -11,16 +11,18 @@
         <div class="flex justify-between h-16">
           <div class="flex">
             <div class="flex-shrink-0 flex items-center text-2xl font-bold text-blue-600">
-              SierraTravels
+              Sri Annapoorneshwari Travels
             </div>
 
             <!-- Desktop Menu -->
             <div class="hidden md:flex md:items-center md:space-x-8 ml-10">
               <a href="/" class="font-medium hover:text-blue-600 px-3 py-2 rounded-md">Home</a>
               <a href="/aboutus" class="font-medium hover:text-blue-600 px-3 py-2 rounded-md">About</a>
+              <a href="/rentals" class="font-medium hover:text-blue-600 px-3 py-2 rounded-md">Our Rentals</a>
+              <a href="/employeetransport" class="font-medium hover:text-blue-600 px-3 py-2 rounded-md">Services</a>
 
               <!-- Services dropdown on hover (desktop) -->
-              <div class="relative group">
+              <!-- <div class="relative group">
                 <div class="inline-flex items-center px-2 py-3 font-medium hover:text-blue-600 cursor-pointer">
                   Services
                   <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -33,7 +35,7 @@
                   <a href="/rentals" class="block px-4 py-2 font-medium hover:bg-gray-100">Vehicle Rentals</a>
                   <a href="/employeetransport" class="block px-4 py-2 font-medium hover:bg-gray-100">Employee Transportation</a>
                 </div>
-              </div>
+              </div> -->
 
               <a href="/contactus" class="font-medium hover:text-blue-600 px-3 py-2 rounded-md">Contact Us</a>
             </div>
@@ -59,9 +61,11 @@
         <div class="md:hidden bg-white border-t border-gray-200">
           <a href="/" class="block px-4 py-2 font-medium hover:bg-gray-100" on:click={() => isOpen = false}>Home</a>
           <a href="/aboutus" class="block px-4 py-2 font-medium hover:bg-gray-100" on:click={() => isOpen = false}>About</a>
+          <a href="/rentals" class="block px-4 py-2 font-medium hover:bg-gray-100" on:click={() => isOpen = false}>Our Rentals</a>
+          <a href="/employeetransport" class="block px-4 py-2 font-medium hover:bg-gray-100" on:click={() => isOpen = false}>Services</a>
 
           <!-- Services Toggle in Mobile -->
-          <div class="block border-t border-gray-200">
+          <!-- <div class="block border-t border-gray-200">
             <button 
               on:click={() => servicesOpen = !servicesOpen} 
               class="w-full flex justify-between items-center px-4 py-2 font-medium hover:bg-gray-100"
@@ -82,7 +86,7 @@
                 <a href="/employeetransport" class="block py-2 font-medium hover:bg-gray-100 rounded" on:click={() => isOpen = false}>Employee Transportation</a>
               </div>
             {/if}
-          </div>
+          </div> -->
 
           <a href="/contactus" class="block px-4 py-2 font-medium hover:bg-gray-100" on:click={() => isOpen = false}>Contact Us</a>
         </div>

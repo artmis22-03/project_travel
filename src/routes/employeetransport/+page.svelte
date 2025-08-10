@@ -1,46 +1,49 @@
 <script>
   const services = [
     {
-      title: "Employee Shuttle Services",
+      title: "Employee Transportation Services",
       description:
-        "Our employee shuttle services provide convenient and reliable transportation options for companies, ensuring smooth and punctual commuting for their workforce.",
-      image: "/etios.jpg",
+        "Sri Annapoorneshwari Travels is a trusted provider of employee transportation services, committed to delivering safe, efficient, and convenient travel solutions for your workforce. With years of experience in the transportation industry, we cater to companies of all sizes, ensuring seamless commutes for their workforce while maintaining high standards of safety, punctuality, and customer service.",
+      image: "/emptransport.jpg",
       reverse: false,
-    },
-    {
-      title: "Executive Transportation",
-      description:
-        "Our executive transportation services cater to the specific needs of high-level professionals, providing luxurious vehicles and professional chauffeurs for a comfortable and prestigious travel experience.",
-      image: "/hycross.jpg",
-      reverse: true,
-    },
-    {
-      title: "Corporate Pickup and Drop Solutions",
-      description:
-        "We offer tailored pickup and drop solutions for corporate clients, streamlining the transportation process and ensuring prompt and efficient travel for executives and employees.",
-      image: "/crysta.jpg",
-      reverse: false,
-    },
-    {
-      title: "Ad-Hoc Cabs",
-      description:
-        "On-demand cab services for employees, used for urgent or unscheduled travel. Typically used for client meetings, hospital visits, or unplanned office travel needs.",
-      image: "/urbania.jpg",
-      reverse: true,
     },
     {
       title: "Airport Transfer",
       description:
-        "Pre-arranged transport for employees traveling for business, ensuring smooth and timely transfer between the airport and office or home, including assistance for early morning or late-night flights.",
-      image: "/etios.jpg",
+        "Pickup and drop services to and from airports, ensuring timely and comfortable travel for employees, guests, or executives.",
+      image: "/airpost.jpg",
+      reverse: true,
+    },
+    {
+      title: "Ad-Hoc Cabs",
+      description:
+        "On-demand cab services for employees or executives that are not part of a fixed route or schedule. Useful for last-minute meetings, urgent trips, or visitor transport.",
+      image: "/adhoc.jpg",
       reverse: false,
     },
     {
-      title: "Event Travel",
-      description:
-        "Transport arrangements for company events such as team outings, conferences, or training sessions. This could involve multiple pick-up points and coordinating large fleets of buses or vans.",
-      image: "/urbania.jpg",
+      title: "Corporate Travel",
+      description:"Customized travel solutions for company executives or teams for business meetings, conferences, and official visits—includes planning, transport, and coordination.",
+      image: "/corporate.jpg",
       reverse: true,
+    },
+    {
+      title: "Local Packages",
+      description:"Hourly or full-day cab/bus rental options for intra-city travel, suitable for client visits, city tours for guests, or team travel.",
+      image: "/localpackage.jpg",
+      reverse: false,
+    },           
+    {
+      title: "Event Travel",
+      description:"Transportation for corporate events, team outings, conferences, or company celebrations. Includes group logistics planning and vehicle deployment.",
+      image: "/eventtravel.jpg",
+      reverse: true,
+    },
+    {
+      title: "Buses On Rent",
+      description:"Fleet of buses available for short- or long-term rental, suitable for bulk employee movement, events, excursions, or training programs.",
+      image: "/bus.jpg",
+      reverse: false,
     },
   ];
 </script>
@@ -54,9 +57,9 @@
 >
   <div class="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
   <div class="relative z-1 text-center text-white px-4" data-aos="zoom-in">
-    <h1 class="text-4xl md:text-5xl font-bold mb-4 drop-shadow">Reliable Employee Transport Services</h1>
+    <h1 class="text-4xl md:text-5xl font-bold mb-4 drop-shadow">Our Services</h1>
     <p class="text-lg md:text-xl max-w-2xl mx-auto mb-6 drop-shadow">
-      Flexible and professional transport solutions for businesses and executives.
+      Where Reliability Meets Quality
     </p>
     <a
       href="/contactus"
@@ -70,9 +73,9 @@
 <!-- Introduction -->
 <section class="bg-gray-50 py-16" data-aos="fade-up">
   <div class="max-w-4xl mx-auto px-6 text-center">
-    <h2 class="text-3xl md:text-4xl font-bold mb-4">Tailored Employee Transport Solutions</h2>
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Tailored Transport Solutions</h2>
     <p class="font-medium text-md md:text-lg">
-      Whether it’s daily employee commutes, executive transfers, or flexible corporate pickups, our fleet and professional drivers ensure comfort, safety, and punctuality across all services.
+      At Annaporneshwari Travels, we ensure every journey is marked by comfort, safety, and reliability, tailored to whether it’s daily commutes, special trips, or custom travel solutions. Know more about our Services below:
     </p>
   </div>
 </section>

@@ -20,12 +20,12 @@
   const vehicles: Vehicle[] = [
     {
       name: "Toyota Etios",
-      image: "/1.png",
-      images: ["/1.png","/2.png"],
+      image: "/1.jpg",
+      images: ["/1.jpg","/2.jpg"],
       passengers: "3 Passengers + 2 Bags",
       type: "SEDAN · DIESEL",
       capacity: "4+1",
-      rate: "Rs.14 per KM",
+      rate: "Rs.13 per KM",
       category: "Outstation",
       misc:"Minimum Billable kms per day: 300Kms",
       included: ["Fuel Charges"],
@@ -38,8 +38,8 @@
     },
     {
       name: "Toyota Innova Crysta",
-      image: "/3.png",
-      images: ["/3.png", "/4.png"],
+      image: "/3.jpg",
+      images: ["/3.jpg", "/4.jpg"],
       passengers: "7 Passengers + 4 Bags",
       type: "MPV · DIESEL",
       capacity: "7+1",
@@ -56,12 +56,12 @@
     },
     {
       name: "Toyota Innova Hycross",
-      image: "5.png",
-      images: ["/5.png", "/6.png"],
+      image: "5.jpg",
+      images: ["/5.jpg", "/6.jpg"],
       passengers: "7 Passengers + 4 Bags",
       type: "MPV · DIESEL",
       capacity: "7+1",
-      rate: "Rs.26 per KM",
+      rate: "Rs.24 per KM",
       category: "Outstation",
       misc:"Minimum Billable kms per day: 300Kms",
       included: ["Fuel Charges"],
@@ -74,12 +74,12 @@
     },
     {
       name: "Force Tempo Traveller BS4 A/C",
-      image: "/7.png",
-      images: ["/7.png", "/tempo1.jpg"],
+      image: "/7.jpg",
+      images: ["/7.jpg", "/tempo1.jpg"],
       passengers: "12 Passengers + 8 Bags",
       type: "DIESEL",
       capacity: "12+1",
-      rate: "Rs.21 per KM",
+      rate: "Rs.20 per KM",
       category: "Outstation",
       misc:"Minimum Billable kms per day: 300Kms",
       included: ["Fuel Charges"],
@@ -92,12 +92,12 @@
     },
     {
       name: "Force Tempo Traveller BS6 A/C",
-      image: "/7.png",
-      images: ["/7.png", "/tempo1.jpg"],
+      image: "/7.jpg",
+      images: ["/7.jpg", "/tempo1.jpg"],
       passengers: "12 Passengers + 8 Bags",
       type: "DIESEL",
       capacity: "12+1",
-      rate: "Rs.24 per KM",
+      rate: "Rs.22 per KM",
       category: "Outstation",
       misc:"Minimum Billable kms per day: 300Kms",
       included: ["Fuel Charges"],
@@ -115,14 +115,14 @@
       passengers: "16 Passengers + 12 Bags",
       type: "DIESEL",
       capacity: "16+1",
-      rate: "Rs.45 per KM",
+      rate: "Rs.42 per KM",
       category: "Outstation",
       misc:"Minimum Billable kms per day: 300Kms",
       included: ["Fuel Charges"],
       excluded: [
         "Toll & Parking",
-        "Driver Batta Rs.1000/day (6AM to 10PM)",
-        "Driver Batta Rs.1000/night (10PM to 6AM)",
+        "Driver Batta Rs.800/day (6AM to 10PM)",
+        "Driver Batta Rs.800/night (10PM to 6AM)",
         "Night Stay Charges Rs.100/-"
       ]
     },
@@ -146,17 +146,17 @@
     },
     {
       name: "Toyota Etios",
-      image: "/1.png",
-      images: ["/1.png", "/2.png"],
+      image: "/1.jpg",
+      images: ["/1.jpg", "/2.jpg"],
       passengers: "3 Passengers + 2 Bags",
       type: "SEDAN · DIESEL",
       capacity: "4+1",
-      rate: "Rs.2,400/-",
+      rate: "Rs.2,200/-",
       included: ["Fuel Charges", "8hrs - 80KMs","Driver Allowance"],
       category: "Local",
       misc:"",
       excluded: [
-        "Extra KMs : Rs.14/- per KM",
+        "Extra KMs : Rs.15/- per KM",
         "Extra Hrs : Rs.165/- per Hour",
         "Driver Batta of Rs.350/- After 10PM to 6AM",
         "New Hour Billing starts when usage more than 15 mins."
@@ -164,8 +164,8 @@
     },
     {
       name: "Toyota Innova Crysta",
-      image: "/3.png",
-      images: ["/3.png", "/4.png"],
+      image: "/3.jpg",
+      images: ["/3.jpg", "/4.jpg"],
       passengers: "7 Passengers + 4 Bags",
       type: "MPV · DIESEL",
       capacity: "7+1",
@@ -182,8 +182,8 @@
     },
     {
       name: "Toyota Innova Hycross",
-      image: "5.png",
-      images: ["/5.png", "/6.png"],
+      image: "5.jpg",
+      images: ["/5.jpg", "/6.jpg"],
       passengers: "7 Passengers + 4 Bags",
       type: "MPV · DIESEL",
       capacity: "7+1",
@@ -192,7 +192,7 @@
       category: "Local",
       misc:"",
       excluded: [
-        "Extra KMs : Rs.26/- per KM",
+        "Extra KMs : Rs.24/- per KM",
         "Extra Hrs : Rs.300/- per Hour",
         "Driver Batta of Rs.500/- After 10PM to 6AM",
         "New Hour Billing starts when usage more than 15 mins."
@@ -200,8 +200,8 @@
     },
     {
       name: "Force Tempo Traveller  A/C",
-      image: "/7.png",
-      images: ["/7.png", "/tempo1.jpg"],
+      image: "/7.jpg",
+      images: ["/7.jpg", "/tempo1.jpg"],
       passengers: "12 Passengers + 8 Bags",
       type: "DIESEL",
       capacity: "12+1",
@@ -223,14 +223,14 @@
       passengers: "16 Passengers + 12 Bags",
       type: "DIESEL",
       capacity: "16+1",
-      rate: "Rs.9,000/-",
+      rate: "Rs.8,000/-",
       included: ["Fuel Charges", "8hrs - 80KMs","Driver Allowance"],
       category: "Local",
       misc:"",
       excluded: [
         "Extra KMs : Rs.45/- per KM",
-        "Extra Hrs : Rs.600/- per Hour",
-        "Driver Batta of Rs.1000/- After 10PM to 6AM",
+        "Extra Hrs : Rs.450/- per Hour",
+        "Driver Batta of Rs.800/- After 10PM to 6AM",
         "New Hour Billing starts when usage more than 15 mins."
       ]
     },
@@ -254,8 +254,8 @@
     },
     {
       name: "Toyota Etios",
-      image: "/1.png",
-      images: ["/1.png", "/2.png"],
+      image: "/1.jpg",
+      images: ["/1.jpg", "/2.jpg"],
       passengers: "3 Passengers + 2 Bags",
       type: "SEDAN · DIESEL",
       capacity: "4+1",
@@ -271,8 +271,8 @@
     },
     {
       name: "Toyota Innova Crysta",
-      image: "/3.png",
-      images: ["/3.png", "/4.png"],
+      image: "/3.jpg",
+      images: ["/3.jpg", "/4.jpg"],
       passengers: "7 Passengers + 4 Bags",
       type: "MPV · DIESEL",
       capacity: "7+1",
@@ -287,8 +287,8 @@
     },
     {
       name: "Toyota Innova Hycross",
-      image: "6.png",
-      images: ["/5.png", "/6.png"],
+      image: "6.jpg",
+      images: ["/5.jpg", "/6.jpg"],
       passengers: "7 Passengers + 4 Bags",
       type: "MPV · DIESEL",
       capacity: "7+1",
@@ -303,8 +303,8 @@
     },
     {
       name: "Force Tempo Traveller  A/C",
-      image: "/7.png",
-      images: ["/7.png", "/tempo1.jpg"],
+      image: "/7.jpg",
+      images: ["/7.jpg", "/tempo1.jpg"],
       passengers: "12 Passengers + 8 Bags",
       type: "DIESEL",
       capacity: "12+1",
@@ -324,7 +324,7 @@
       passengers: "16 Passengers + 12 Bags",
       type: "DIESEL",
       capacity: "16+1",
-      rate: "On Request",
+      rate: "Rs.8,500/-",
       included: ["Fuel Charges", "Charges upto 45Kms","Driver Allowance"],
       category: "Airport Drop",
       misc:"",
@@ -512,7 +512,24 @@
       </button>
     </div>
   </div>
-
+  <div class="w-full bg-white border-t-4 border-blue-500 mt-12" data-aos="fade-up">
+    <div class="max-w-7xl mx-auto px-6 py-8">
+      <h2 class="text-2xl font-bold text-blue-700 mb-4">Terms and Conditions</h2>
+      <ul class="list-disc pl-6 space-y-2 text-gray-800 text-sm">
+        <li>Toll, State Tax, Entry Fee & Parking at actuals.</li>
+        <li>The KMS & Hours usage will be calculated from Office to Office (JP Nagar).</li>
+        <li>
+          Cancellation charges:
+          <ul class="list-disc pl-6 mt-1">
+            <li>50% if cancelled 72 hrs prior</li>
+            <li>75% if cancelled 48 hrs prior</li>
+            <li>100% if cancelled 24 hrs prior</li>
+          </ul>
+        </li>
+        <li>GST of 5% is applicable.</li>
+      </ul>
+    </div>
+  </div>
 {/if}
 
 
