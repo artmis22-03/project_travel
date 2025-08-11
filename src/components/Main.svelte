@@ -110,8 +110,8 @@
           Their live tracking feature and well-maintained vehicles give us complete peace of mind
           for our daily corporate travel needs.
         </p>
-        <p class="font-semibold text-purple-300">Priya Sharma</p>
-        <p class="text-gray-500 text-sm">HR Head</p>
+        <p class="font-semibold text-purple-300">Mohammed Gaffar </p>
+        <p class="text-gray-500 text-sm">AHCS Bangalore</p>
       </div>
     </div>
   </div>
