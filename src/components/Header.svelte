@@ -10,9 +10,17 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
           <div class="flex">
-            <div class="flex-shrink-0 flex items-center text-2xl font-bold text-blue-600">
-              Sri Annapoorneshwari Travels
-            </div>
+            <div class="flex-shrink-0 flex items-center">
+  <div class="">
+    <img src="logonew.jpg" alt="Sri Annapoorneshwari Travels Logo" class="h-16 w-auto">
+  </div>
+  <span class="hidden sm:inline text-3xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent ml-3 drop-shadow-lg tracking-wide">
+    Sri Annapoorneshwari Travels
+  </span>
+</div>
+
+
+
 
             <!-- Desktop Menu -->
             <div class="hidden md:flex md:items-center md:space-x-8 ml-10">

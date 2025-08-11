@@ -21,7 +21,7 @@
         <ul class="space-y-1 text-sm">
           <li><a href="/" class="hover:underline">Home</a></li>
           <li><a href="/aboutus" class="hover:underline">About</a></li>
-          <li><a href="/rentals" class="hover:underline">Services</a></li>
+          <li><a href="/employeetransopt" class="hover:underline">Services</a></li>
           <li><a href="/contactus" class="hover:underline">Contact</a></li>
         </ul>
       </div>
@@ -30,7 +30,7 @@
       <div>
         <h3 class="text-lg font-semibold text-white mb-2">Contact Us</h3>
         <p class="text-sm">Email: shreyaswn@satravels.co.in</p>
-        <p class="text-sm">Phone: +91 99723 10009</p>
+        <p class="text-sm">Phone: +91 99723 10009 | +91 99453 65753</p>
         <p class="text-sm"> No.135, 2nd Floor, East End, 4th
                             Main, JP Nagar, 3rd Phase
                             Bangalore, 560078</p>

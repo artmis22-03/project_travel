@@ -28,7 +28,7 @@
       >
         <h2 class="text-2xl font-semibold text-blue-700 mb-6">Contact Information</h2>
         <div class="space-y-4 font-medium text-lg">
-          <p><strong>📞 Phone:</strong> +91 99723 10009</p>
+          <p><strong>📞 Phone:</strong> +91 99723 10009 | +91 99453 65753</p>
           <p><strong>✉️ Email:</strong> shreyaswn@satravels.co.in</p>
           <p><strong>📍 Address:</strong> No.135, 2nd Floor, East End 4th Main, JP Nagar 3rd Phase, Bangalore, 560078</p>
         </div>

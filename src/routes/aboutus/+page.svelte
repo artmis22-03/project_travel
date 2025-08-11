@@ -56,7 +56,12 @@
 >
   <!-- Text Section -->
   <div class="space-y-5" data-aos="fade-right" data-aos-delay="200">
-    <h2 class="text-3xl font-extrabold text-blue-800">Sri Annapoorneshwari Travels</h2>
+    <h2 class="flex items-center text-3xl font-extrabold text-blue-800">
+  <img src="logonew.jpg" alt="Sri Annapoorneshwari Travels Logo" class="h-20 sm:h-50 w-auto mr-3">
+  Sri Annapoorneshwari Travels
+</h2>
+
+
     <p class="text-justify text-base md:text-lg leading-relaxed text-gray-800">
       <strong>Sri Annapoorneshwari Travels</strong> was founded in 1991 by Mr. Nagesh, with a simple vision — to provide reliable and trustworthy travel services. Over three decades of commitment have led to steady growth, adapting to evolving needs and expanding our reach.
     </p>
