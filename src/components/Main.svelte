@@ -107,8 +107,7 @@
       <!-- Testimonial Card 2 -->
       <div class="bg-[#0b0f1a] rounded-xl p-6 shadow-lg hover:shadow-purple-500/20 transition">
         <p class="text-gray-300 mb-6">
-          Their live tracking feature and well-maintained vehicles give us complete peace of mind
-          for our daily corporate travel needs.
+          Excellent support and co-ordination in terms of service and we respect your honesty and integrity
         </p>
         <p class="font-semibold text-purple-300">Mohammed Gaffar </p>
         <p class="text-gray-500 text-sm">AHCS Bangalore</p>
