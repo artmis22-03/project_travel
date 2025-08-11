@@ -444,6 +444,58 @@
   </div>
 
 
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-8 bg-black text-white">
+
+  <!-- Card -->
+  <div class="bg-[#0a0c14] p-6 rounded-xl shadow hover:shadow-lg transition">
+    <img src="air.png" alt="Air Condition" class="w-10 h-10 mb-3 filter brightness-0 invert">
+    <h3 class="text-lg font-semibold text-purple-200">Air Condition</h3>
+    <p class="text-gray-300 text-sm">All our cars come with Air Conditioner as standard to keep you comfortable.</p>
+  </div>
+
+  <div class="bg-[#0a0c14] p-6 rounded-xl shadow hover:shadow-lg transition">
+    <img src="airbag.png" alt="Airbags" class="w-10 h-10 mb-3">
+    <h3 class="text-lg font-semibold text-purple-200">Airbags</h3>
+    <p class="text-gray-300 text-sm">Our cars come with factory fitted air bags to keep you safe.</p>
+  </div>
+
+  <div class="bg-[#0a0c14] p-6 rounded-xl shadow hover:shadow-lg transition">
+    <img src="gps.png" alt="GPS Tracker" class="w-10 h-10 mb-3 filter brightness-0 invert">
+    <h3 class="text-lg font-semibold text-purple-200">GPS Tracker</h3>
+    <p class="text-gray-300 text-sm">Your safety is our priority, all our cars are fitted with GPS trackers monitored 24/7.</p>
+  </div>
+
+  <div class="bg-[#0a0c14] p-6 rounded-xl shadow hover:shadow-lg transition">
+    <img src="bluetooth.png" alt="Bluetooth" class="w-10 h-10 mb-3">
+    <h3 class="text-lg font-semibold text-purple-200">Bluetooth</h3>
+    <p class="text-gray-300 text-sm">Our cars have excellent Bluetooth connectivity to keep you entertained.</p>
+  </div>
+
+  <div class="bg-[#0a0c14] p-6 rounded-xl shadow hover:shadow-lg transition">
+    <img src="chaeffaur.png" alt="Chauffeur Driven" class="w-10 h-10 mb-3 filter brightness-0 invert">
+    <h3 class="text-lg font-semibold text-purple-200">Chauffeur Driven</h3>
+    <p class="text-gray-300 text-sm">All our chauffeurs are experienced and trained to keep you safe on the road.</p>
+  </div>
+
+  <div class="bg-[#0a0c14] p-6 rounded-xl shadow hover:shadow-lg transition">
+    <img src="water.png" alt="Water Bottle" class="w-10 h-10 mb-3">
+    <h3 class="text-lg font-semibold text-purple-200">Water Bottle</h3>
+    <p class="text-gray-300 text-sm">Water bottles are amenities we provide to keep you hydrated.</p>
+  </div>
+
+  <div class="bg-[#0a0c14] p-6 rounded-xl shadow hover:shadow-lg transition">
+    <img src="safetykit.png" alt="First Aid Kit" class="w-10 h-10 mb-3 filter brightness-0 invert">
+    <h3 class="text-lg font-semibold text-purple-200">First Aid Kit</h3>
+    <p class="text-gray-300 text-sm">First aid kits are mandatory in our cars.</p>
+  </div>
+
+  <div class="bg-[#0a0c14] p-6 rounded-xl shadow hover:shadow-lg transition">
+    <img src="umbrella.png" alt="Umbrella" class="w-10 h-10 mb-3">
+    <h3 class="text-lg font-semibold text-purple-200">Umbrella</h3>
+    <p class="text-gray-300 text-sm">Bangalore weather can be unpredictable, so our cars have an umbrella to keep you dry.</p>
+  </div>
+
+</div>
     <div class="w-full bg-white border-t-4 border-blue-500 mt-12" data-aos="fade-up">
     <div class="max-w-7xl mx-auto px-6 py-8">
       <h2 class="text-2xl font-bold text-blue-700 mb-4">Terms and Conditions</h2>
@@ -512,6 +564,59 @@
       </button>
     </div>
   </div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-8 bg-black text-white">
+
+  <!-- Card -->
+  <div class="bg-[#0a0c14] p-6 rounded-xl shadow hover:shadow-lg transition">
+    <img src="air.png" alt="Air Condition" class="w-10 h-10 mb-3 filter brightness-0 invert">
+    <h3 class="text-lg font-semibold text-purple-200">Air Condition</h3>
+    <p class="text-gray-300 text-sm">All our cars come with Air Conditioner as standard to keep you comfortable.</p>
+  </div>
+
+  <div class="bg-[#0a0c14] p-6 rounded-xl shadow hover:shadow-lg transition">
+    <img src="airbag.png" alt="Airbags" class="w-10 h-10 mb-3">
+    <h3 class="text-lg font-semibold text-purple-200">Airbags</h3>
+    <p class="text-gray-300 text-sm">Our cars come with factory fitted air bags to keep you safe.</p>
+  </div>
+
+  <div class="bg-[#0a0c14] p-6 rounded-xl shadow hover:shadow-lg transition">
+    <img src="gps.png" alt="GPS Tracker" class="w-10 h-10 mb-3 filter brightness-0 invert">
+    <h3 class="text-lg font-semibold text-purple-200">GPS Tracker</h3>
+    <p class="text-gray-300 text-sm">Your safety is our priority, all our cars are fitted with GPS trackers monitored 24/7.</p>
+  </div>
+
+  <div class="bg-[#0a0c14] p-6 rounded-xl shadow hover:shadow-lg transition">
+    <img src="bluetooth.png" alt="Bluetooth" class="w-10 h-10 mb-3">
+    <h3 class="text-lg font-semibold text-purple-200">Bluetooth</h3>
+    <p class="text-gray-300 text-sm">Our cars have excellent Bluetooth connectivity to keep you entertained.</p>
+  </div>
+
+  <div class="bg-[#0a0c14] p-6 rounded-xl shadow hover:shadow-lg transition">
+    <img src="chaeffaur.png" alt="Chauffeur Driven" class="w-10 h-10 mb-3 filter brightness-0 invert">
+    <h3 class="text-lg font-semibold text-purple-200">Chauffeur Driven</h3>
+    <p class="text-gray-300 text-sm">All our chauffeurs are experienced and trained to keep you safe on the road.</p>
+  </div>
+
+  <div class="bg-[#0a0c14] p-6 rounded-xl shadow hover:shadow-lg transition">
+    <img src="water.png" alt="Water Bottle" class="w-10 h-10 mb-3">
+    <h3 class="text-lg font-semibold text-purple-200">Water Bottle</h3>
+    <p class="text-gray-300 text-sm">Water bottles are amenities we provide to keep you hydrated.</p>
+  </div>
+
+  <div class="bg-[#0a0c14] p-6 rounded-xl shadow hover:shadow-lg transition">
+    <img src="safetykit.png" alt="First Aid Kit" class="w-10 h-10 mb-3 filter brightness-0 invert">
+    <h3 class="text-lg font-semibold text-purple-200">First Aid Kit</h3>
+    <p class="text-gray-300 text-sm">First aid kits are mandatory in our cars.</p>
+  </div>
+
+  <div class="bg-[#0a0c14] p-6 rounded-xl shadow hover:shadow-lg transition">
+    <img src="umbrella.png" alt="Umbrella" class="w-10 h-10 mb-3">
+    <h3 class="text-lg font-semibold text-purple-200">Umbrella</h3>
+    <p class="text-gray-300 text-sm">Bangalore weather can be unpredictable, so our cars have an umbrella to keep you dry.</p>
+  </div>
+
+</div>
+
   <div class="w-full bg-white border-t-4 border-blue-500 mt-12" data-aos="fade-up">
     <div class="max-w-7xl mx-auto px-6 py-8">
       <h2 class="text-2xl font-bold text-blue-700 mb-4">Terms and Conditions</h2>
