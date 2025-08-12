@@ -56,10 +56,13 @@
 >
   <!-- Text Section -->
   <div class="space-y-5" data-aos="fade-right" data-aos-delay="200">
-    <h2 class="flex items-center text-3xl font-extrabold text-blue-800">
-  <img src="logobg.png" alt="Sri Annapoorneshwari Travels Logo" class="h-20 sm:h-50 w-auto mr-3">
-  Sri Annapoorneshwari Travels
+    <h2 class="flex items-center text-blue-800">
+  <img src="logobg.png" alt="Sri Annapoorneshwari Travels Logo" class="h-50 sm:h-50 w-auto mr-3">
+  <span class="text-xl sm:text-3xl font-extrabold">
+    Sri Annapoorneshwari Travels
+  </span>
 </h2>
+
 
 
     <p class="text-justify text-base md:text-lg leading-relaxed text-gray-800">
