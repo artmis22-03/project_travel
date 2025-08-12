@@ -57,7 +57,7 @@
   <!-- Text Section -->
   <div class="space-y-5" data-aos="fade-right" data-aos-delay="200">
     <h2 class="flex items-center text-3xl font-extrabold text-blue-800">
-  <img src="logonew.jpg" alt="Sri Annapoorneshwari Travels Logo" class="h-20 sm:h-50 w-auto mr-3">
+  <img src="logobg.png" alt="Sri Annapoorneshwari Travels Logo" class="h-20 sm:h-50 w-auto mr-3">
   Sri Annapoorneshwari Travels
 </h2>
 
